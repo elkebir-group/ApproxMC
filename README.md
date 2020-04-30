@@ -102,7 +102,7 @@ ApproxMC provides so-called "PAC", or Probably Approximately Correct, guarantees
 Please click on "issues" at the top and [create a new issue](https://github.com/meelgroup/mis/issues/new). All issues are responded to promptly.
 
 ## How to Cite
-If you use ApproxMC, please cite the following papers: [AAAI19](https://www.comp.nus.edu.sg/~meel/bib/SM19.bib) and [IJCAI16](https://www.comp.nus.edu.sg/~meel/bib/CMV16.bib).
+If you use ApproxMC, please cite the following papers: [AAAI19](https://www.comp.nus.edu.sg/~meel/bib/SM19.bib) and [IJCAI16](https://www.comp.nus.edu.sg/~meel/bib/CMV16.bib). ApproxMC was first introduced in [CP13](https://www.comp.nus.edu.sg/~meel/Papers/CP2013.pdf). 
 
 ApproxMC builds on a series of papers on hashing-based approach: [Related Publications](https://www.comp.nus.edu.sg/~meel/publications.html)
 
