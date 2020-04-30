@@ -6,7 +6,7 @@ ApproxMCv3 is a state-of-the-art approximate model counter utilizing an improved
 ApproxMC handles CNF formulas. 
 
 1. If you are instead interested in DNF formulas, visit our DNF counter [DNFApproxMC](https://gitlab.com/Shrotri/DNF_Counting).
-2. If you are interested in exact counting, visit our exact counter [GANAK](https://github.com/meelgroup/ganak) 
+2. If you are interested in exact (weighted and unweighted) counting, visit our exact counter [GANAK](https://github.com/meelgroup/ganak) 
 ## Docker image
 If you don't have or don't know what an independent set is, first run our MIS tool:
 ```
