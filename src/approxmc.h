@@ -30,6 +30,7 @@
 #define AppMC_H_
 
 #include "approxmcconfig.h"
+#include "cuttingplane.h"
 #include <fstream>
 #include <random>
 #include <map>
@@ -52,7 +53,7 @@ struct SATCount {
 
 class AppMC {
 public:
-    AppMC()
+    AppMC() : cuttingPlane(NULL)
     {
     }
 
@@ -68,6 +69,10 @@ public:
     uint32_t hiThresh;
     SATSolver* solver = NULL;
     void printVersionInfo() const;
+
+    void setCuttingPlane(CuttingPlane* _cuttingPlane) {
+        this->cuttingPlane = _cuttingPlane;
+    }
 
 private:
     AppMCConfig conf;
@@ -99,6 +104,8 @@ private:
 
     int argc;
     char** argv;
+
+    CuttingPlane* cuttingPlane;
 };
 
 

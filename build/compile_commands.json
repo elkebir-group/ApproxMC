@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/root/approxmc/build/approxmc-src",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DUSE_ZLIB -I/root/approxmc -I/root/approxmc/build/approxmc-src -I/usr/local/include   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -pedantic   -g -pthread -O0 -fPIC -std=gnu++11 -o CMakeFiles/approxmc.dir/approxmc.cpp.o -c /root/approxmc/src/approxmc.cpp",
+  "file": "/root/approxmc/src/approxmc.cpp"
+},
+{
+  "directory": "/root/approxmc/build/approxmc-src",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DUSE_ZLIB -I/root/approxmc -I/root/approxmc/build/approxmc-src -I/usr/local/include   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -pedantic   -g -pthread -O0 -fPIC -std=gnu++11 -o CMakeFiles/approxmc.dir/main.cpp.o -c /root/approxmc/src/main.cpp",
+  "file": "/root/approxmc/src/main.cpp"
+},
+{
+  "directory": "/root/approxmc/build/approxmc-src",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DUSE_ZLIB -I/root/approxmc -I/root/approxmc/build/approxmc-src -I/usr/local/include   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -Wformat=2 -pedantic   -g -pthread -O0 -fPIC -std=gnu++11 -o CMakeFiles/approxmc.dir/GitSHA1.cpp.o -c /root/approxmc/build/approxmc-src/GitSHA1.cpp",
+  "file": "/root/approxmc/build/approxmc-src/GitSHA1.cpp"
+}
+]

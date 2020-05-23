@@ -163,6 +163,9 @@ int64_t AppMC::bounded_sol_count(
     double last_found_time = cpuTimeTotal();
     while (solutions < maxSolutions) {
         ret = solver->solve(&new_assumps);
+        if (cuttingPlane) {
+            cuttingPlane->separate();
+        }
         assert(ret == l_False || ret == l_True);
 
         if (conf.verb >=2 ) {

@@ -377,6 +377,7 @@ int main(int argc, char** argv)
 
     //startTime = cpuTimeTotal();
     appmc->solver = new SATSolver();
+    // Add cutting plane here
     appmc->solver->set_up_for_scalmc();
 
     if (conf.verb > 2) {
@@ -406,7 +407,7 @@ int main(int argc, char** argv)
         }
     }
 
-    //parsing the input
+    // parsing the input
     if (vm.count("input") != 0) {
         vector<string> inp = vm["input"].as<vector<string> >();
         if (inp.size() > 1) {

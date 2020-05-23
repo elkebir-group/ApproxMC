@@ -44,6 +44,19 @@ include_directories(${CRYPTOMINISAT5_INCLUDE_DIRS})
 
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/GitSHA1.cpp.in" "${CMAKE_CURRENT_BINARY_DIR}/GitSHA1.cpp" @ONLY)
 
+set (lumberjack_src
+    Lumberjack/mainlumberjack.cpp
+    Lumberjack/cuttingplane.cpp
+    Lumberjack/matrix.cpp
+    Lumberjack/utils.cpp
+)
+
+set (lumberjack_hdr
+    Lumberjack/cuttingplane.h
+    Lumberjack/matrix.h
+    Lumberjack/utils.h
+)
+
 if (NOT EMSCRIPTEN)
     add_executable(approxmc
         approxmc.cpp
@@ -98,8 +111,17 @@ target_link_libraries(approxmc
     ${cms_libs}
 )
 
+
+add_executable(
+    lumberjack ${lumberjack_src} ${lumberjack_hdr}
+    approxmc.cpp
+    ${CMAKE_CURRENT_BINARY_DIR}/GitSHA1.cpp
+)
+target_link_libraries( lumberjack  ${cms_libs} )
+
 install(TARGETS approxmc
     EXPORT ${APPROXMC_EXPORT_NAME}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
-SET(CPACK_PACKAGE_EXECUTABLES "approxmc")
+SET(CPACK_PACKAGE_EXECUTABLES "approxmc" "lumberjack")
+
