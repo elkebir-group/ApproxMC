@@ -21,9 +21,9 @@ class CuttingPlane
 public:
 
   /// Constructor
-  CuttingPlane(SATSolver* solver): _solver(solver) {};
+  CuttingPlane(SATSolver* solver): _solver(solver) {}
 
-  virtual ~CuttingPlane();
+  virtual ~CuttingPlane() {}
 
   /// Identify violated constraints
   virtual int separate() = 0;

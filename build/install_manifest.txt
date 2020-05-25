@@ -1,4 +1,4 @@
 /usr/local/lib/cmake/approxmc/approxmcConfig.cmake
 /usr/local/lib/cmake/approxmc/approxmcTargets.cmake
-/usr/local/lib/cmake/approxmc/approxmcTargets-relwithdebinfo.cmake
+/usr/local/lib/cmake/approxmc/approxmcTargets-debug.cmake
 /usr/local/bin/approxmc

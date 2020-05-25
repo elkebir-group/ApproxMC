@@ -25,14 +25,16 @@ int CuttingPlaneDollo::getEntryAssignment(int p, int c){
   }
   
   int var = _B2Var[p][c];
-  if (getAssignment(var) == l_True){
+  std::cout << "Variable: " << var << ", assignment: " << getAssignment(var) << std::endl;
+
+  if (getAssignment(var) == l_True) {
     return 2;
   }
   
-  if (getAssignment(var) == l_False){
+  if (getAssignment(var) == l_False) {
     return 0;
   }
-  
+
   throw std::runtime_error("Error: Solver did not assign truth value to variable.");
 }
 

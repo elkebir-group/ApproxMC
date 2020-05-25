@@ -38,6 +38,8 @@ if (NOT WIN32)
     #add_cxx_flag_if_supported("-Wdeprecated")
 endif()
 
+FIND_PACKAGE(Boost COMPONENTS program_options REQUIRED)
+
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 include_directories(${Boost_INCLUDE_DIRS})
 include_directories(${CRYPTOMINISAT5_INCLUDE_DIRS})
@@ -113,13 +115,12 @@ target_link_libraries(approxmc
     ${cms_libs}
 )
 
-
 add_executable(
     lumberjack ${lumberjack_src} ${lumberjack_hdr}
     approxmc.cpp
     ${CMAKE_CURRENT_BINARY_DIR}/GitSHA1.cpp
 )
-target_link_libraries( lumberjack  ${cms_libs} )
+target_link_libraries( lumberjack  ${cms_libs} ${approxmc_exec_link_libs})
 
 install(TARGETS approxmc
     EXPORT ${APPROXMC_EXPORT_NAME}
