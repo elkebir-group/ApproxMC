@@ -247,6 +247,8 @@ approxmc-src/lumberjack: approxmc-src/CMakeFiles/lumberjack.dir/approxmc.cpp.o
 approxmc-src/lumberjack: approxmc-src/CMakeFiles/lumberjack.dir/GitSHA1.cpp.o
 approxmc-src/lumberjack: approxmc-src/CMakeFiles/lumberjack.dir/build.make
 approxmc-src/lumberjack: /usr/local/lib/libcryptominisat5.so.5.7
+approxmc-src/lumberjack: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+approxmc-src/lumberjack: /usr/lib/x86_64-linux-gnu/libz.so
 approxmc-src/lumberjack: /usr/lib/x86_64-linux-gnu/libm4ri.so
 approxmc-src/lumberjack: approxmc-src/CMakeFiles/lumberjack.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/approxmc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lumberjack"
