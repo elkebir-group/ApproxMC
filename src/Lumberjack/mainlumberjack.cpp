@@ -131,7 +131,6 @@ void add_appmc_options()
     my_epsilon << std::setprecision(8) << conf.epsilon;
     my_delta << std::setprecision(8) << conf.delta;
 
-
     appmc_options.add_options()
     ("help,h", "Prints help")
     ("version", "Print version info")

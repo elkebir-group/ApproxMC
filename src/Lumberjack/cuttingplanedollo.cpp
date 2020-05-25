@@ -25,7 +25,6 @@ int CuttingPlaneDollo::getEntryAssignment(int p, int c){
   }
   
   int var = _B2Var[p][c];
-  std::cout << "Variable: " << var << ", assignment: " << getAssignment(var) << std::endl;
 
   if (getAssignment(var) == l_True) {
     return 2;
@@ -399,7 +398,7 @@ int CuttingPlaneDollo::separate()
       }
     }
   }
-  
+  std::cout << "Added " << nrNewClauses << " clauses\n";
   return nrNewClauses;
 }
 

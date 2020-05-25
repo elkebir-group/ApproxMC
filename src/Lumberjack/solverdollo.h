@@ -37,9 +37,12 @@ public:
   int solve(AppMCConfig _conf);
   
 protected:
-  
+
   /// Get current assignment from solver and input
-  int getAssignment(int p, int c);
+  int getEntryAssignment(int p, int c);
+
+  /// Get current assignment from solver and input
+  lbool getAssignment(int var);
 
   /// Extract solution from SAT solver
   void processSolution();

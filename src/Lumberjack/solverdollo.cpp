@@ -47,5 +47,46 @@ void SolverDollo::init() {
 }
 
 int SolverDollo::solve(AppMCConfig _conf) {
-  return _approxmc->solve(_conf);
+  /// Create variables
+  _approxmc->solver->new_vars(_nrActiveVariables);
+
+  int num_solutions = _approxmc->solve(_conf);
+
+  if (num_solutions > 0) {
+    processSolution();
+  }
+
+  return num_solutions;
+}
+
+/// Get current assignment from solver and input
+lbool SolverDollo::getAssignment(int var) {
+  return _approxmc->solver->get_model()[var]; // see if this is const
+}
+
+int SolverDollo::getEntryAssignment(int p, int c){
+  
+  if (!_activeEntries[p][c]){
+    return _B.getEntry(p, c);
+  }
+  
+  int var = _B2Var[p][c];
+
+  if (getAssignment(var) == l_True) {
+    return 2;
+  }
+  
+  if (getAssignment(var) == l_False) {
+    return 0;
+  }
+
+  throw std::runtime_error("Error: Solver did not assign truth value to variable.");
+}
+
+void SolverDollo::processSolution() {
+  for (int p = 0; p < _m; p++){
+    for (int c = 0; c < _n; ++c){
+      _solA.setEntry(p, c, getEntryAssignment(p, c));
+    }
+  }
 }
