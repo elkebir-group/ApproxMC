@@ -3,14 +3,14 @@
  *
  */
 
-#ifndef CUTTINGPLANE_H
-#define CUTTINGPLANE_H
+#ifndef SOLVERDOLLO_H
+#define SOLVERDOLLO_H
 
 #include <cryptominisat5/cryptominisat.h>
 #include "matrix.h"
 #include "utils.h"
-#include "cuttingplane.h"
-#include "approxmc.h"
+#include "cuttingplanedollo.h"
+#include "../approxmc.h"
 
 /// This class provides a cutting plane wrapper for CryptoMiniSAT
 /// This can be used to solve the the k-DP problem .
@@ -34,7 +34,7 @@ public:
   }
   
   /// Solve
-  int solve();
+  int solve(AppMCConfig _conf);
   
 protected:
   

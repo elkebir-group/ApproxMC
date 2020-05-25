@@ -3,29 +3,18 @@
  *
  */
 
-#include <cuttingplanedollo.h>
+#include "cuttingplanedollo.h"
 using namespace CMSat;
 
-void CuttingPlaneDollo::CuttingPlaneDollo(SATSolver* solver,
-                                          const Matrix& B,
-                                          const int m,
-                                          const int n,
-                                          const int k,
-                                          StlIntMatrix& B2Var,
-                                          StlBoolMatrix& activeEntries,
-                                          Matrix& solA)
+CuttingPlaneDollo::CuttingPlaneDollo(SATSolver* solver, const Matrix& B, const int m, const int n, const int k, StlIntMatrix& B2Var, StlBoolMatrix& activeEntries, Matrix& solA)
   : CuttingPlane(solver)
   , _B(B)
-  , _m(B.getNrClones())
-  , _n(B.getNrMutations())
+  , _m(m)
+  , _n(n)
   , _k(k)
-  , _B2Var()
-  , _var2B()
-  , _activeEntries()
-  , _nrActiveVariables(0)
-  , _nrConstraints(0)
-  , _solver()
-  , _solA(_B.getNrClones(), _B.getNrMutations())
+  , _B2Var(B2Var)
+  , _activeEntries(activeEntries)
+  , _solA(solA)
 {
 }
 

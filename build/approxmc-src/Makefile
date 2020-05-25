@@ -193,6 +193,7 @@ GitSHA1.o: GitSHA1.cpp.o
 # target to build an object file
 GitSHA1.cpp.o:
 	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/approxmc.dir/build.make approxmc-src/CMakeFiles/approxmc.dir/GitSHA1.cpp.o
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/GitSHA1.cpp.o
 .PHONY : GitSHA1.cpp.o
 
 GitSHA1.i: GitSHA1.cpp.i
@@ -202,6 +203,7 @@ GitSHA1.i: GitSHA1.cpp.i
 # target to preprocess a source file
 GitSHA1.cpp.i:
 	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/approxmc.dir/build.make approxmc-src/CMakeFiles/approxmc.dir/GitSHA1.cpp.i
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/GitSHA1.cpp.i
 .PHONY : GitSHA1.cpp.i
 
 GitSHA1.s: GitSHA1.cpp.s
@@ -211,7 +213,143 @@ GitSHA1.s: GitSHA1.cpp.s
 # target to generate assembly for a file
 GitSHA1.cpp.s:
 	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/approxmc.dir/build.make approxmc-src/CMakeFiles/approxmc.dir/GitSHA1.cpp.s
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/GitSHA1.cpp.s
 .PHONY : GitSHA1.cpp.s
+
+Lumberjack/cuttingplanedollo.o: Lumberjack/cuttingplanedollo.cpp.o
+
+.PHONY : Lumberjack/cuttingplanedollo.o
+
+# target to build an object file
+Lumberjack/cuttingplanedollo.cpp.o:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/cuttingplanedollo.cpp.o
+.PHONY : Lumberjack/cuttingplanedollo.cpp.o
+
+Lumberjack/cuttingplanedollo.i: Lumberjack/cuttingplanedollo.cpp.i
+
+.PHONY : Lumberjack/cuttingplanedollo.i
+
+# target to preprocess a source file
+Lumberjack/cuttingplanedollo.cpp.i:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/cuttingplanedollo.cpp.i
+.PHONY : Lumberjack/cuttingplanedollo.cpp.i
+
+Lumberjack/cuttingplanedollo.s: Lumberjack/cuttingplanedollo.cpp.s
+
+.PHONY : Lumberjack/cuttingplanedollo.s
+
+# target to generate assembly for a file
+Lumberjack/cuttingplanedollo.cpp.s:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/cuttingplanedollo.cpp.s
+.PHONY : Lumberjack/cuttingplanedollo.cpp.s
+
+Lumberjack/mainlumberjack.o: Lumberjack/mainlumberjack.cpp.o
+
+.PHONY : Lumberjack/mainlumberjack.o
+
+# target to build an object file
+Lumberjack/mainlumberjack.cpp.o:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/mainlumberjack.cpp.o
+.PHONY : Lumberjack/mainlumberjack.cpp.o
+
+Lumberjack/mainlumberjack.i: Lumberjack/mainlumberjack.cpp.i
+
+.PHONY : Lumberjack/mainlumberjack.i
+
+# target to preprocess a source file
+Lumberjack/mainlumberjack.cpp.i:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/mainlumberjack.cpp.i
+.PHONY : Lumberjack/mainlumberjack.cpp.i
+
+Lumberjack/mainlumberjack.s: Lumberjack/mainlumberjack.cpp.s
+
+.PHONY : Lumberjack/mainlumberjack.s
+
+# target to generate assembly for a file
+Lumberjack/mainlumberjack.cpp.s:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/mainlumberjack.cpp.s
+.PHONY : Lumberjack/mainlumberjack.cpp.s
+
+Lumberjack/matrix.o: Lumberjack/matrix.cpp.o
+
+.PHONY : Lumberjack/matrix.o
+
+# target to build an object file
+Lumberjack/matrix.cpp.o:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/matrix.cpp.o
+.PHONY : Lumberjack/matrix.cpp.o
+
+Lumberjack/matrix.i: Lumberjack/matrix.cpp.i
+
+.PHONY : Lumberjack/matrix.i
+
+# target to preprocess a source file
+Lumberjack/matrix.cpp.i:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/matrix.cpp.i
+.PHONY : Lumberjack/matrix.cpp.i
+
+Lumberjack/matrix.s: Lumberjack/matrix.cpp.s
+
+.PHONY : Lumberjack/matrix.s
+
+# target to generate assembly for a file
+Lumberjack/matrix.cpp.s:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/matrix.cpp.s
+.PHONY : Lumberjack/matrix.cpp.s
+
+Lumberjack/solverdollo.o: Lumberjack/solverdollo.cpp.o
+
+.PHONY : Lumberjack/solverdollo.o
+
+# target to build an object file
+Lumberjack/solverdollo.cpp.o:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/solverdollo.cpp.o
+.PHONY : Lumberjack/solverdollo.cpp.o
+
+Lumberjack/solverdollo.i: Lumberjack/solverdollo.cpp.i
+
+.PHONY : Lumberjack/solverdollo.i
+
+# target to preprocess a source file
+Lumberjack/solverdollo.cpp.i:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/solverdollo.cpp.i
+.PHONY : Lumberjack/solverdollo.cpp.i
+
+Lumberjack/solverdollo.s: Lumberjack/solverdollo.cpp.s
+
+.PHONY : Lumberjack/solverdollo.s
+
+# target to generate assembly for a file
+Lumberjack/solverdollo.cpp.s:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/solverdollo.cpp.s
+.PHONY : Lumberjack/solverdollo.cpp.s
+
+Lumberjack/utils.o: Lumberjack/utils.cpp.o
+
+.PHONY : Lumberjack/utils.o
+
+# target to build an object file
+Lumberjack/utils.cpp.o:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/utils.cpp.o
+.PHONY : Lumberjack/utils.cpp.o
+
+Lumberjack/utils.i: Lumberjack/utils.cpp.i
+
+.PHONY : Lumberjack/utils.i
+
+# target to preprocess a source file
+Lumberjack/utils.cpp.i:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/utils.cpp.i
+.PHONY : Lumberjack/utils.cpp.i
+
+Lumberjack/utils.s: Lumberjack/utils.cpp.s
+
+.PHONY : Lumberjack/utils.s
+
+# target to generate assembly for a file
+Lumberjack/utils.cpp.s:
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/utils.cpp.s
+.PHONY : Lumberjack/utils.cpp.s
 
 approxmc.o: approxmc.cpp.o
 
@@ -220,6 +358,7 @@ approxmc.o: approxmc.cpp.o
 # target to build an object file
 approxmc.cpp.o:
 	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/approxmc.dir/build.make approxmc-src/CMakeFiles/approxmc.dir/approxmc.cpp.o
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/approxmc.cpp.o
 .PHONY : approxmc.cpp.o
 
 approxmc.i: approxmc.cpp.i
@@ -229,6 +368,7 @@ approxmc.i: approxmc.cpp.i
 # target to preprocess a source file
 approxmc.cpp.i:
 	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/approxmc.dir/build.make approxmc-src/CMakeFiles/approxmc.dir/approxmc.cpp.i
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/approxmc.cpp.i
 .PHONY : approxmc.cpp.i
 
 approxmc.s: approxmc.cpp.s
@@ -238,6 +378,7 @@ approxmc.s: approxmc.cpp.s
 # target to generate assembly for a file
 approxmc.cpp.s:
 	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/approxmc.dir/build.make approxmc-src/CMakeFiles/approxmc.dir/approxmc.cpp.s
+	cd /root/approxmc/build && $(MAKE) -f approxmc-src/CMakeFiles/lumberjack.dir/build.make approxmc-src/CMakeFiles/lumberjack.dir/approxmc.cpp.s
 .PHONY : approxmc.cpp.s
 
 main.o: main.cpp.o
@@ -284,6 +425,21 @@ help:
 	@echo "... GitSHA1.o"
 	@echo "... GitSHA1.i"
 	@echo "... GitSHA1.s"
+	@echo "... Lumberjack/cuttingplanedollo.o"
+	@echo "... Lumberjack/cuttingplanedollo.i"
+	@echo "... Lumberjack/cuttingplanedollo.s"
+	@echo "... Lumberjack/mainlumberjack.o"
+	@echo "... Lumberjack/mainlumberjack.i"
+	@echo "... Lumberjack/mainlumberjack.s"
+	@echo "... Lumberjack/matrix.o"
+	@echo "... Lumberjack/matrix.i"
+	@echo "... Lumberjack/matrix.s"
+	@echo "... Lumberjack/solverdollo.o"
+	@echo "... Lumberjack/solverdollo.i"
+	@echo "... Lumberjack/solverdollo.s"
+	@echo "... Lumberjack/utils.o"
+	@echo "... Lumberjack/utils.i"
+	@echo "... Lumberjack/utils.s"
 	@echo "... approxmc.o"
 	@echo "... approxmc.i"
 	@echo "... approxmc.s"

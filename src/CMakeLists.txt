@@ -46,13 +46,15 @@ configure_file("${CMAKE_CURRENT_SOURCE_DIR}/GitSHA1.cpp.in" "${CMAKE_CURRENT_BIN
 
 set (lumberjack_src
     Lumberjack/mainlumberjack.cpp
-    Lumberjack/cuttingplane.cpp
+    Lumberjack/cuttingplanedollo.cpp
+    Lumberjack/solverdollo.cpp
     Lumberjack/matrix.cpp
     Lumberjack/utils.cpp
 )
 
 set (lumberjack_hdr
-    Lumberjack/cuttingplane.h
+    Lumberjack/cuttingplanedollo.h
+    Lumberjack/solverdollo.h
     Lumberjack/matrix.h
     Lumberjack/utils.h
 )

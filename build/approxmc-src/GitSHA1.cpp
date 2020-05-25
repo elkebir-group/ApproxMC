@@ -23,7 +23,7 @@ THE SOFTWARE.
 #include "src/GitSHA1.h"
 const char* get_version_sha1()
 {
-    static const char myversion_sha1[] = "8f3779e1607a47ae33eb7db864b226e9cb3979c8";
+    static const char myversion_sha1[] = "a682d0590c544e08d6b5d1a968042414dafb3299";
     return myversion_sha1;
 }
 

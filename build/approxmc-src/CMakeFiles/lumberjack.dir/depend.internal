@@ -4,16 +4,44 @@
 approxmc-src/CMakeFiles/lumberjack.dir/GitSHA1.cpp.o
  ..//src/GitSHA1.h
  /root/approxmc/build/approxmc-src/GitSHA1.cpp
-approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/cuttingplane.cpp.o
- /root/approxmc/src/Lumberjack/cuttingplane.cpp
-approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/mainlumberjack.cpp.o
- /root/approxmc/src/Lumberjack/mainlumberjack.cpp
+approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/cuttingplanedollo.cpp.o
+ /root/approxmc/src/Lumberjack/cuttingplanedollo.cpp
+ /root/approxmc/src/Lumberjack/cuttingplanedollo.h
+ /root/approxmc/src/Lumberjack/matrix.h
+ /root/approxmc/src/Lumberjack/utils.h
+ /root/approxmc/src/approxmcconfig.h
+ /root/approxmc/src/cuttingplane.h
  /usr/local/include/cryptominisat5/cryptominisat.h
  /usr/local/include/cryptominisat5/solvertypesmini.h
+approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/mainlumberjack.cpp.o
+ /root/approxmc/src/Lumberjack/cuttingplanedollo.h
+ /root/approxmc/src/Lumberjack/mainlumberjack.cpp
+ /root/approxmc/src/Lumberjack/matrix.h
+ /root/approxmc/src/Lumberjack/solverdollo.h
+ /root/approxmc/src/Lumberjack/utils.h
+ /root/approxmc/src/approxmc.h
+ /root/approxmc/src/approxmcconfig.h
+ /root/approxmc/src/cuttingplane.h
+ /root/approxmc/src/time_mem.h
+ /usr/local/include/cryptominisat5/cryptominisat.h
+ /usr/local/include/cryptominisat5/dimacsparser.h
+ /usr/local/include/cryptominisat5/solvertypesmini.h
+ /usr/local/include/cryptominisat5/streambuffer.h
 approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/matrix.cpp.o
  /root/approxmc/src/Lumberjack/matrix.cpp
  /root/approxmc/src/Lumberjack/matrix.h
  /root/approxmc/src/Lumberjack/utils.h
+approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/solverdollo.cpp.o
+ /root/approxmc/src/Lumberjack/cuttingplanedollo.h
+ /root/approxmc/src/Lumberjack/matrix.h
+ /root/approxmc/src/Lumberjack/solverdollo.cpp
+ /root/approxmc/src/Lumberjack/solverdollo.h
+ /root/approxmc/src/Lumberjack/utils.h
+ /root/approxmc/src/approxmc.h
+ /root/approxmc/src/approxmcconfig.h
+ /root/approxmc/src/cuttingplane.h
+ /usr/local/include/cryptominisat5/cryptominisat.h
+ /usr/local/include/cryptominisat5/solvertypesmini.h
 approxmc-src/CMakeFiles/lumberjack.dir/Lumberjack/utils.cpp.o
  /root/approxmc/src/Lumberjack/utils.cpp
  /root/approxmc/src/Lumberjack/utils.h

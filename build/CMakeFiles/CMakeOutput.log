@@ -1477,3 +1477,259 @@ make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-fvisibility=hidden succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab804/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab804.dir/build.make CMakeFiles/cmTC_ab804.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab804.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_ab804.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_ab804
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab804.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden    -rdynamic CMakeFiles/cmTC_ab804.dir/src.cxx.o  -o cmTC_ab804 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bc1c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bc1c.dir/build.make CMakeFiles/cmTC_3bc1c.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3bc1c.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_3bc1c.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_3bc1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bc1c.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2    -Wl,--discard-all -Wl,--build-id=sha1  -rdynamic CMakeFiles/cmTC_3bc1c.dir/src.cxx.o  -o cmTC_3bc1c 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-fvisibility=hidden succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1e91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1e91.dir/build.make CMakeFiles/cmTC_e1e91.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e1e91.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_e1e91.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_e1e91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1e91.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden    -rdynamic CMakeFiles/cmTC_e1e91.dir/src.cxx.o  -o cmTC_e1e91 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd00b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd00b.dir/build.make CMakeFiles/cmTC_cd00b.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cd00b.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_cd00b.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_cd00b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd00b.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2    -Wl,--discard-all -Wl,--build-id=sha1  -rdynamic CMakeFiles/cmTC_cd00b.dir/src.cxx.o  -o cmTC_cd00b 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-fvisibility=hidden succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_712ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_712ad.dir/build.make CMakeFiles/cmTC_712ad.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_712ad.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_712ad.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_712ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_712ad.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden    -rdynamic CMakeFiles/cmTC_712ad.dir/src.cxx.o  -o cmTC_712ad 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_808a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_808a2.dir/build.make CMakeFiles/cmTC_808a2.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_808a2.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_808a2.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_808a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_808a2.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2    -Wl,--discard-all -Wl,--build-id=sha1  -rdynamic CMakeFiles/cmTC_808a2.dir/src.cxx.o  -o cmTC_808a2 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-fvisibility=hidden succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ee65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ee65.dir/build.make CMakeFiles/cmTC_0ee65.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ee65.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_0ee65.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_0ee65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ee65.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden    -rdynamic CMakeFiles/cmTC_0ee65.dir/src.cxx.o  -o cmTC_0ee65 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5884c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5884c.dir/build.make CMakeFiles/cmTC_5884c.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5884c.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_5884c.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_5884c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5884c.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2    -Wl,--discard-all -Wl,--build-id=sha1  -rdynamic CMakeFiles/cmTC_5884c.dir/src.cxx.o  -o cmTC_5884c 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-fvisibility=hidden succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74365/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74365.dir/build.make CMakeFiles/cmTC_74365.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74365.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_74365.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_74365
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74365.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden    -rdynamic CMakeFiles/cmTC_74365.dir/src.cxx.o  -o cmTC_74365 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8700e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8700e.dir/build.make CMakeFiles/cmTC_8700e.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8700e.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_8700e.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_8700e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8700e.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2    -Wl,--discard-all -Wl,--build-id=sha1  -rdynamic CMakeFiles/cmTC_8700e.dir/src.cxx.o  -o cmTC_8700e 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-fvisibility=hidden succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f195/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f195.dir/build.make CMakeFiles/cmTC_9f195.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f195.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_9f195.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_9f195
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f195.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden    -rdynamic CMakeFiles/cmTC_9f195.dir/src.cxx.o  -o cmTC_9f195 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4fa6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4fa6.dir/build.make CMakeFiles/cmTC_e4fa6.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4fa6.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_e4fa6.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_e4fa6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4fa6.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2    -Wl,--discard-all -Wl,--build-id=sha1  -rdynamic CMakeFiles/cmTC_e4fa6.dir/src.cxx.o  -o cmTC_e4fa6 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-fvisibility=hidden succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e013/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e013.dir/build.make CMakeFiles/cmTC_1e013.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e013.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_1e013.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_1e013
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e013.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden    -rdynamic CMakeFiles/cmTC_1e013.dir/src.cxx.o  -o cmTC_1e013 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02e4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02e4d.dir/build.make CMakeFiles/cmTC_02e4d.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_02e4d.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_02e4d.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_02e4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02e4d.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2    -Wl,--discard-all -Wl,--build-id=sha1  -rdynamic CMakeFiles/cmTC_02e4d.dir/src.cxx.o  -o cmTC_02e4d 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-fvisibility=hidden succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5341/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5341.dir/build.make CMakeFiles/cmTC_e5341.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5341.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTC_e5341.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_e5341
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5341.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-fvisibility=hidden    -rdynamic CMakeFiles/cmTC_e5341.dir/src.cxx.o  -o cmTC_e5341 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wformat=2 succeeded with the following output:
+Change Dir: /root/approxmc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_759de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_759de.dir/build.make CMakeFiles/cmTC_759de.dir/build
+make[1]: Entering directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_759de.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2   -Wformat=2 -o CMakeFiles/cmTC_759de.dir/src.cxx.o -c /root/approxmc/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_759de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_759de.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wunused -Wsign-compare -fno-omit-frame-pointer -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -fvisibility=hidden -Wpointer-arith -Wformat-nonliteral -Winit-self -Wparentheses -Wunreachable-code -ggdb3 -Wlogical-op -Wrestrict -Wnull-dereference -Wdouble-promotion -Wshadow -DHAVE_FLAG_-Wformat=2    -Wl,--discard-all -Wl,--build-id=sha1  -rdynamic CMakeFiles/cmTC_759de.dir/src.cxx.o  -o cmTC_759de 
+make[1]: Leaving directory '/root/approxmc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

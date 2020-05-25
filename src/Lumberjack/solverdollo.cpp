@@ -1,5 +1,6 @@
 #include "solverdollo.h"
 
+
 SolverDollo::SolverDollo(const Matrix& B, int k, AppMC* approxmc)
   : _B(B)
   , _m(B.getNrClones())
@@ -10,7 +11,6 @@ SolverDollo::SolverDollo(const Matrix& B, int k, AppMC* approxmc)
   , _activeEntries()
   , _nrActiveVariables(0)
   , _nrConstraints(0)
-  , _solver()
   , _solA(_B.getNrClones(), _B.getNrMutations())
   , _approxmc(approxmc)
 {
@@ -42,10 +42,10 @@ void SolverDollo::init() {
       }
     }
   }
-  _cuttingPlane = new CuttingPlaneDollo(approxmc->solver, _B, _m, _n, _k, _B2Var, _activeEntries, _solA);
-  approxmc->setCuttingPlane(_cuttingPlane);
+  _cuttingPlane = new CuttingPlaneDollo(_approxmc->solver, _B, _m, _n, _k, _B2Var, _activeEntries, _solA);
+  _approxmc->setCuttingPlane(_cuttingPlane);
 }
 
-int SolverDollo::solve() {
-  return _approxmc->solve();
+int SolverDollo::solve(AppMCConfig _conf) {
+  return _approxmc->solve(_conf);
 }
