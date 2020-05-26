@@ -344,7 +344,7 @@ int main(int argc, char** argv)
     }
 
     string filename = vm["input"].as<vector<string>>()[0].c_str();
-    string outputFilename = vm["output"].as<string>();
+//    string outputFilename = vm["output"].as<string>();
 
     if (conf.start_iter > conf.sampling_set.size()) {
         cout << "[appmc] ERROR: Manually-specified start_iter"
@@ -369,9 +369,6 @@ int main(int argc, char** argv)
     solver.init();
     if (solver.solve(conf))
     {
-        std::ofstream outE(outputFilename.c_str());
-        outE << solver.getSolA();
-        outE.close();
         return 0;
     }
     else

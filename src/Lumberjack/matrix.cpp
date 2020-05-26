@@ -103,7 +103,7 @@ std::istream& operator>>(std::istream& in, Matrix& D)
     StringVector s;
     getline(in, line);
     boost::split(s, line, boost::is_any_of(" \t"));
-    if (s.size() < n)
+    if (s.size() < (size_t)n)
     {
       throw std::runtime_error(getLineNumber()
                                + "Error: insufficient number of characters.");

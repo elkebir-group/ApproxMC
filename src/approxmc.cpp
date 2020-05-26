@@ -162,9 +162,20 @@ int64_t AppMC::bounded_sol_count(
     lbool ret;
     double last_found_time = cpuTimeTotal();
     while (solutions < maxSolutions) {
-        ret = solver->solve(&new_assumps);
+        
         if (cuttingPlane) {
-            cuttingPlane->separate();
+            int cuts = 0;
+            int delta = 0;
+            do {
+                
+                ret = solver->solve(&new_assumps);
+                delta = cuttingPlane->separate();
+                cuts += delta;
+            } while (delta != 0);
+            std::cout << "[cuts] Added " << cuts << " clauses -- solutions: " << solutions << std::endl;
+        }
+        else {
+            ret = solver->solve(&new_assumps);
         }
         assert(ret == l_False || ret == l_True);
 

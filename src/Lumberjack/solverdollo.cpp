@@ -38,7 +38,7 @@ void SolverDollo::init() {
         _B2Var[p][c] = _nrActiveVariables;
         _var2B.push_back(Triple(p, c, 2));
         _nrActiveVariables = _nrActiveVariables+1;
-        assert(_var2B.size() == _nrActiveVariables);
+        assert(_var2B.size() == (size_t)_nrActiveVariables);
       }
     }
   }
@@ -49,9 +49,14 @@ void SolverDollo::init() {
 int SolverDollo::solve(AppMCConfig _conf) {
   /// Create variables
   _approxmc->solver->new_vars(_nrActiveVariables);
+  
+  /// Update sampling set
+  for (int i = 0; i < _nrActiveVariables; ++i)
+  {
+    _conf.sampling_set.push_back(i);
+  }
 
   int num_solutions = _approxmc->solve(_conf);
-
   if (num_solutions > 0) {
     processSolution();
   }

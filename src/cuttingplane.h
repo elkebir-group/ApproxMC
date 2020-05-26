@@ -42,7 +42,26 @@ protected:
   void addClause(const std::vector<Lit>& clause) {
     _solver->add_clause(clause);
     _numClausesAdded++;
+//    std::cerr << clause << " 0" << std::endl;
   }
+  
+//  void sortClause(std::vector<Lit>& clause) {
+//    std::sort(clause.begin(), clause.end(), [](Lit a, Lit b){
+//      int delta = a.var() - b.var();
+//      if (delta < 0) {
+//        return true;
+//      }
+//      else if (delta > 0) {
+//        return false;
+//      }
+//      else if (a.sign()) {
+//        return false;
+//      }
+//      else {
+//        return true;
+//      }
+//    });
+//  }
 
 private:
   SATSolver* _solver;

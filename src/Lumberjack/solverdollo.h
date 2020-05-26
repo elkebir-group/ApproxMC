@@ -97,7 +97,9 @@ protected:
   int _nrConstraints;
   /// Solution matrix
   Matrix _solA;
+  /// Approx MC solver
   AppMC* _approxmc;
+  /// Cutting plane oracle
   CuttingPlaneDollo* _cuttingPlane;
 };
 

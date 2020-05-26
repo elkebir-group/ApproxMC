@@ -59,6 +59,7 @@ set (lumberjack_hdr
     Lumberjack/solverdollo.h
     Lumberjack/matrix.h
     Lumberjack/utils.h
+    cuttingplane.h
 )
 
 if (NOT EMSCRIPTEN)

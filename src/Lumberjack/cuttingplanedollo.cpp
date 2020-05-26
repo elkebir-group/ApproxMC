@@ -39,7 +39,6 @@ int CuttingPlaneDollo::getEntryAssignment(int p, int c){
 
 int CuttingPlaneDollo::separate()
 {
-
   int nrNewClauses = 0;
   std::vector<Lit> clause;
   
@@ -132,6 +131,7 @@ int CuttingPlaneDollo::separate()
                       /// This constraint will not be violated if it is FALSE next time
                       clause.push_back(Lit(_B2Var[r][d], true));
                     }
+//                    sortClause(clause);
                     addClause(clause);
                     nrNewClauses = nrNewClauses+1;
                   }
@@ -217,6 +217,7 @@ int CuttingPlaneDollo::separate()
                       /// constraint[5] = Triple(r, d, j);
                       clause.push_back(Lit(_B2Var[r][d], true));
                     }
+//                    sortClause(clause);
                     addClause(clause);
                     nrNewClauses = nrNewClauses+1;
                   }
@@ -301,6 +302,7 @@ int CuttingPlaneDollo::separate()
                       /// constraint[5] = Triple(r, d, j_prime);
                       clause.push_back(Lit(_B2Var[r][d], true));
                     }
+//                    sortClause(clause);
                     addClause(clause);
                     nrNewClauses = nrNewClauses+1;
                   }
@@ -387,6 +389,7 @@ int CuttingPlaneDollo::separate()
                       /// constraint[5] = Triple(r, d, j);
                       clause.push_back(Lit(_B2Var[r][d], true));
                     }
+//                    sortClause(clause);
                     addClause(clause);
                     nrNewClauses = nrNewClauses+1;
                   }
@@ -398,7 +401,7 @@ int CuttingPlaneDollo::separate()
       }
     }
   }
-  std::cout << "Added " << nrNewClauses << " clauses\n";
+//  std::cout << "Added " << nrNewClauses << " clauses\n";
   return nrNewClauses;
 }
 
